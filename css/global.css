@@ -1,0 +1,183 @@
+body {
+  min-height: 100vh;
+}
+.photoviewer {
+  color: #FFF;
+  text-align: center;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 1000;
+}
+
+.photoviewer img {
+  max-width: 80%;
+  max-height: 80%;
+  top: 5%;
+  display: block;
+  margin: 0 auto;
+  line-height: 100%;
+  position: relative;
+}
+.foot-text {
+  position: absolute;
+  width: 100%;
+  bottom: 5px;
+}
+
+h4.card-title {
+  font-size: 24px !important;
+  line-height: 30px !important;
+  font-weight: 700 !important;
+  margin: 0 !important;
+}
+h5.card-sub-title {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  margin: 0 0 10px 0 !important;
+}
+
+.brand-logo ,.brand-logo img {
+  height: 100%;
+}
+
+.btn {
+  padding: 0 1rem !important;
+}
+.btn-block {
+  width: 100%;
+  display: block;
+}
+
+.dropdown-content {
+  width: auto !important;
+}
+
+thead {
+  font-weight: bold !important;
+}
+
+input, textarea {
+  border: 1px solid #9e9e9e !important;
+}
+input[type='file'] {
+  border: none !important;
+}
+.wickedpicker {
+  z-index: 9999 !important;
+}
+
+.filefield {
+  padding-top: 30px !important;
+  padding-bottom: 0px !important;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.modalTitleCenter, .modalImageEdit, .addQuesBtnWrapper, #oldSound, .q-result {
+  text-align: center;
+}
+.modal-footer .row {
+  margin-bottom: 0 !important
+}
+
+#questionsContainer {
+  padding: 0 0 16px 0;
+}
+.template {
+  display: none !important;
+}
+
+h6.input-label {
+  color:#888;
+}
+
+h6.card-title {
+  line-height: 30px !important;
+  margin: 0 0 14px 0;
+}
+
+.input-field {
+  margin-top: 0;
+}
+.input-field .prefix{
+  margin-top: 8px;
+}
+
+.barBtn, .actionBtns {
+  text-align: right;
+}
+.barBtn a {
+  margin: 6px !important;
+}
+
+#loginModal .col {
+  margin-bottom: 8px;
+}
+
+.seatSelector {
+  opacity: 1 !important;
+  position: relative !important;
+  left: 0 !important;
+}
+.tailbutton {
+  text-align: right;
+}
+
+.hidden {
+  display: none;
+}
+
+#promo_firstpage {
+  height: 400px !important;
+}
+.file-field input.file-path {
+  width: 99% !important;
+}
+
+.choice {
+  margin: 4px 0 !important;
+}
+.choice label {
+  font-size: 18px !important;
+}
+.q-result {
+  border-radius: 6px;
+  color: #FFF;
+  padding: 1px 0 0 0 !important;
+}
+.q-result h6 {
+  font-size: 16px;
+}
+.q-result span {
+  font-size: 24px;
+}
+a .card {
+  color: #000;
+}
+.postBtn {
+  text-align: right;
+}
+
+span.date {
+  font-style: italic;
+}
+
+.user-badge{
+  font-size: 80%;
+  color: white;
+  border-radius: 6%;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.header-menu-text{
+  font-size: 1.30em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
