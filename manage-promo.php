@@ -82,7 +82,7 @@
               <td >{$promo['name']}</td>
               <td><img src='{$promo['img']}' style='max-widht: 50px; max-height: 50px;'></img></td>
               <td colspan='2'><a href='{$promo['url']}'>{$promo['url']}</a></td>
-              <td class='actionBtns'><a class='waves-effect waves-light btn editPromo green' data-editpromoid='{$promo['id']}' data-originalfile='{$promo['img']}' data-url='{$promo['url']}'>แก้ไข</a></td>
+              <td class='actionBtn'><a class='waves-effect waves-light btn editPromo green' data-editpromoid='{$promo['id']}' data-originalfile='{$promo['img']}' data-url='{$promo['url']}'>แก้ไข</a></td>
               <td><a class='waves-effect waves-light btn red' href='manage-promo.php?delete_pro={$promo['id']}'><i class='fa fa-trash'></i></a></td></tr>";
               $i = $i+1;
             }
